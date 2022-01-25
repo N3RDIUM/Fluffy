@@ -2,30 +2,23 @@
 from flask import Flask, jsonify
 from flask_restful import Resource, Api
 from chatterbot import ChatBot
-from chatterbot.trainers import ListTrainer
+from chatterbot.trainers import ChatterBotCorpusTrainer
 
 bot = ChatBot(
     'Fluffy',
 )
-trainer = ListTrainer(bot)
+trainer = ChatterBotCorpusTrainer(bot)
 trainer.train(
-    [
-        'Hello',
-        'Hi there!',
-        'How are you doing?',
-        'I am doing great.',
-        'That is good to hear',
-        'Thank you',
-        'You are welcome.',
-    ]
+    "chatterbot.corpus.english"
 )
 
 app = Flask(__name__)
 api = Api(app)
-class Square(Resource):
+
+class Fluffy(Resource):
     def get(self, input):
         return jsonify({'result': str(bot.get_response(input))})
 
-api.add_resource(Square, '/bot/<string:input>')
+api.add_resource(Fluffy, '/<string:input>')
 if __name__ == '__main__':
     app.run(debug = True)
