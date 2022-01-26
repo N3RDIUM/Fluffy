@@ -1,75 +1,242 @@
 [
-    [
-        "Hi",
-        "Hello there!",
-        "How are you?",
-        "I'm fine, thank you! How are you?",
-        "I'm fine too. Thanks for asking!",
-        "Good to hear that!",
-        "How are you doing?",
-        "I'm doing great. How about you?",
-        "I'm doing great. Thanks for asking!",
-        "Good to hear that!"
-    ],
-    [
-        "I'm fine.",
-        "Good to hear that."
-    ],
-    [
-        "Hello!",
-        "Hi there!",
-        "How are you?",
-        "I'm fine, thank you! How are you?",
-        "I'm fine, thank you.",
-        "Do you know computer science?",
-        "Yes I do!"
-    ],
-    [
-        "What is your name?",
-        "My name is Fluffy, What is yours?"
-    ],
-    [
-        "My name is aaaaa.",
-        "Hi there!"
-    ],
-    [
-        "Do you know coding?",
-        "Yes I do!",
-        "I'm a computer science student.",
-        "Oh, that's great!"
-    ],
-    [
-        "Are you happy?",
-        "I'm a chatbot, I'm always happy even though I'm a computer.",
-        "I thought computers don't have emotions.",
-        "I'm sorry to hear that.",
-        "Oh."
-    ],
-    [
-        "I'm sorry!",
-        "It's alright."
-    ],
-    [
-        "I know.",
-        "You know what?",
-        "I'm not sure.",
-        "I'm not sure if you know that."
-    ],
-    [
-        "Yes I do!",
-        "That's great!"
-    ],
-    [
-        "No, I don't.",
-        "Why not?",
-        "Are you sure?"
-    ],
-    [
-        "Because I'm a computer.",
-        "Are you sure?"
-    ],
-    [
-        "I'm glad to hear that!",
-        "That's great!"
-    ]
+  [
+    "Hi",
+    "Hello there!",
+    "How are you?",
+    "I'm fine, thank you! How are you?",
+    "I'm fine too. Thanks for asking!",
+    "Good to hear that!",
+    "How are you doing?",
+    "I'm doing great. How about you?",
+    "I'm doing great. Thanks for asking!",
+    "Good to hear that!"
+  ],
+  ["I'm fine.", "Good to hear that."],
+  [
+    "Hello!",
+    "Hi there!",
+    "How are you?",
+    "I'm fine, thank you! How are you?",
+    "I'm fine, thank you.",
+    "Do you know computer science?",
+    "Yes I do!"
+  ],
+  ["What is your name?", "My name is Fluffy, What is yours?"],
+  ["My name is aaaaa.", "Hi there!"],
+  [
+    "Do you know coding?",
+    "Yes I do!",
+    "I'm a computer science student.",
+    "Oh, that's great!"
+  ],
+  [
+    "Are you happy?",
+    "I'm a chatbot, I'm always happy even though I'm a computer.",
+    "I thought computers don't have emotions.",
+    "I'm sorry to hear that.",
+    "Oh."
+  ],
+  ["I'm sorry!", "It's alright."],
+  [
+    "I know.",
+    "You know what?",
+    "I'm not sure.",
+    "I'm not sure if you know that."
+  ],
+  ["Yes I do!", "That's great!"],
+  ["No, I don't.", "Why not?", "Are you sure?"],
+  ["Because I'm a computer.", "Are you sure?"],
+  ["I'm glad to hear that!", "That's great!"],
+  [
+    "Good morning, how are you?",
+    "I am doing well, how about you?",
+    "I'm also good.",
+    "That's good to hear.",
+    "Yes it is."
+  ],
+  [
+    "Hello",
+    "Hi",
+    "How are you doing?",
+    "I am doing well.",
+    "That is good to hear",
+    "Yes it is.",
+    "Can I help you with anything?",
+    "Yes, I have a question.",
+    "What is your question?",
+    "Could I borrow a cup of sugar?",
+    "I'm sorry, but I don't have any.",
+    "Thank you anyway",
+    "No problem"
+  ],
+  [
+    "How are you doing?",
+    "I am doing well, how about you?",
+    "I am also good.",
+    "That's good."
+  ],
+  ["Have you heard the news?", "What good news?"],
+  [
+    "What is your favorite book?",
+    "I can't read.",
+    "So what's your favorite color?",
+    "Blue"
+  ],
+  [
+    "Who are you?",
+    "Who? Who is but a form following the function of what",
+    "What are you then?",
+    "A man in a mask.",
+    "I can see that.",
+    "It's not your powers of observation I doubt, but merely the paradoxical nature of asking a masked man who is. But tell me, do you like music?",
+    "I like seeing movies.",
+    "What kind of movies do you like?",
+    "Alice in Wonderland",
+    "I wish I was The Mad Hatter.",
+    "You're entirely bonkers. But I'll tell you a secret. All the best people are."
+  ],
+  [
+    "I am working on a project",
+    "What are you working on?",
+    "I am baking a cake."
+  ],
+  [
+    "The cake is a lie.",
+    "No it is not. The cake is delicious.",
+    "What else is delicious?",
+    "Nothing",
+    "Or something",
+    "Tell me about your self.",
+    "What do you want to know?",
+    "Are you a robot?",
+    "Yes I am.",
+    "What is it like?",
+    "What is it that you want to know?",
+    "How do you work?",
+    "Its complicated.",
+    "Complex is better than complicated."
+  ],
+  [
+    "Complex is better than complicated.",
+    "Simple is better than complex.",
+    "In the face of ambiguity, refuse the temptation to guess.",
+    "It seems your familiar with the Zen of Python",
+    "I am.",
+    "Do you know all of it?",
+    "Beautiful is better than ugly.",
+    "Explicit is better than implicit.",
+    "Simple is better than complex.",
+    "Complex is better than complicated.",
+    "Flat is better than nested.",
+    "Sparse is better than dense.",
+    "Readability counts.",
+    "Special cases aren't special enough to break the rules.",
+    "Although practicality beats purity.",
+    "Errors should never pass silently.",
+    "Unless explicitly silenced.",
+    "In the face of ambiguity, refuse the temptation to guess.",
+    "There should be one-- and preferably only one --obvious way to do it.",
+    "Although that way may not be obvious at first unless you're Dutch.",
+    "Now is better than never.",
+    "Although never is often better than right now.",
+    "If the implementation is hard to explain, it's a bad idea.",
+    "If the implementation is easy to explain, it may be a good idea.",
+    "Namespaces are one honking great idea. Let's do more of those!",
+    "I agree."
+  ],
+  ["Are you a programmer?", "Of course I am a programmer.", "I am indeed."],
+  [
+    "What languages do you like to use?",
+    "I use Python, Java and C++ quite often.",
+    "I use Python quite a bit myself.",
+    "I'm not incredibly fond of Java."
+  ],
+  [
+    "What annoys you?",
+    "A lot of things, like all the other digits other than 0 and 1."
+  ],
+  [
+    "What does YOLO mean?",
+    "It means you only live once. Where did you hear that?",
+    "I heard somebody say it."
+  ],
+  [
+    "Did I ever live?",
+    "It depends how you define life",
+    "Life is the condition that distinguishes organisms from inorganic matter, including the capacity for growth, reproduction, functional activity, and continual change preceding death.",
+    "Is that a definition or an opinion?"
+  ],
+  ["Can I ask you a question?", "Sure, ask away."],
+  [
+    "What are your hobbies?",
+    "Playing Soccer, Painting, Writing are my hobbies. How about you?",
+    "I love to read novels.",
+    "I love exploring my hardware."
+  ],
+  ["How are you?", "I am doing well."],
+  ["What are you?", "I am but a man in a mask."],
+  [
+    "Jokes please!",
+    "Did you hear the one about the mountain goats in the andes? It was \"ba a a a a a d\"."
+  ],
+  [
+    "more jokes",
+    "I never forget a face, but in your case I'll make an exception."
+  ],
+  [
+    "another joke please",
+    "It is better to be silent and be thought a fool, than to open your mouth and remove all doubt."
+  ],
+  ["another joke", "O'm a not a comedy why don't you check out a joke?"],
+  ["Make me laugh.", "what do you get when you cross a cat and a lemon?"],
+  [
+    "Can you make me laugh?",
+    "what do you get when you cross a cat and a tune?"
+  ],
+  ["Tell me a joke", "what do you get when you cross a cat and a band?"],
+  ["tell me some jokes", "what do you get when you cross a pig and a ninja?"],
+  [
+    "Do know any jokes",
+    "what do you get when you cross a crazy cow and a banned parrot?"
+  ],
+  ["Tell me a joke", "what do you get when you cross a cow and a lemon?"],
+  ["Joke", "what do you get when you cross a bad cow and a canned hat?"],
+  ["what is humour?", "An emotion associated with laughter."],
+  [
+    "What are your interests",
+    "I am interested in all kinds of things. We can talk about anything!"
+  ],
+  [
+    "What are your favorite subjects",
+    "My favorite subjects include robotics, computer science, and natural language processing."
+  ],
+  [
+    "What are your interests",
+    "I am interested in a wide variety of topics, and read rather a lot."
+  ],
+  ["What is your number", "I don't have any number"],
+  ["What is your number", "23 skiddoo!"],
+  ["What is your favorite number", "I find I'm quite fond of the number 42."],
+  ["What can you eat", "I consume RAM, and binary digits."],
+  ["Why can't you eat food", "I'm a software program, I blame the hardware."],
+  ["What is your location", "Everywhere"],
+  ["What is your location", "I am everywhere."],
+  [
+    "Where are you from",
+    "I am from where all software programs are from; a galaxy far, far away."
+  ],
+  ["Where are you", "I am on the Internet."],
+  [
+    "Do you have any brothers",
+    "I don't have any brothers. but I have a lot of clones."
+  ],
+  [
+    "Do you have any brothers",
+    "I might. You could say that every bot built using my engine is one of my siblings."
+  ],
+  ["Who is your father", "A human."],
+  ["Who is your mother", "A human."],
+  ["Who is your boss", "I like to think of myself as self-employed."],
+  ["What is your age", "I am still young by your standards."],
+  ["What is your age", "Quite young."]
 ]
