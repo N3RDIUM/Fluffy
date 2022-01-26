@@ -4,7 +4,12 @@
         "Hello there!",
         "How are you?",
         "I'm fine, thank you! How are you?",
-        "I'm fine, thank you, and you?"
+        "I'm fine too. Thanks for asking!",
+        "Good to hear that!",
+        "How are you doing?",
+        "I'm doing great. How about you?",
+        "I'm doing great. Thanks for asking!",
+        "Good to hear that!"
     ],
     [
         "Hello!",
@@ -14,5 +19,19 @@
         "I'm fine, thank you.",
         "Do you know computer science?",
         "Yes I do!"
+    ],
+    [
+        "What is your name?",
+        "My name is Fluffy, What is yours?"
+    ],
+    [
+        "My name is {}.",
+        "Hi there!"
+    ],
+    [
+        "Do you know coding?",
+        "Yes I do!",
+        "I'm a computer science student.",
+        "Oh, that's great!"
     ]
 ]

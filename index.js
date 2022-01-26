@@ -44,7 +44,6 @@ function respond(input){
 app.get('/chatbot/', (req, res) => {
     input = req.query.input
     res.send(respond(input))
-    // try curl -X GET "http://localhost:3000/chatbot/?input=hello"
 })
 
 app.listen(port, () => {
