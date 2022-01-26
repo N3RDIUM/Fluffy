@@ -57,8 +57,7 @@
     ],
     [
         "Yes I do!",
-        "That's great!",
-        "I'm glad to hear that!"
+        "That's great!"
     ],
     [
         "No, I don't.",
@@ -68,5 +67,9 @@
     [
         "Because I'm a computer.",
         "Are you sure?"
+    ],
+    [
+        "I'm glad to hear that!",
+        "That's great!"
     ]
 ]
