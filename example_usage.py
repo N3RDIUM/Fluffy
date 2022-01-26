@@ -1,16 +1,23 @@
-import os
+import requests, pyttsx3
+engine = pyttsx3.init()
 
 def respond(string):
     # Convert string to lowercase and remove punctuation and replace spaces with %20
     string = string.lower().replace(" ", "%20")
     
     # Use API
-    url = f"localhost:3000/chatbot/?input=\"{string}\""
-    os.system(f"curl {url}")
+    url = f"http://127.0.0.1:3000/chatbot/?input=\"{string}\""
+    response = requests.get(url)
+    output = response.text
+    speak(output)
+    return output
+
+def speak(string):
+    engine.say(string)
+    engine.runAndWait()
 
 if __name__ == '__main__':
     while True:
         # Get user input
         user_input = input("> ")
-        respond(user_input)
-        print("\n")
+        print(respond(user_input))

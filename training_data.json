@@ -11,16 +11,19 @@
     "I'm doing great. Thanks for asking!",
     "Good to hear that!"
   ],
-  ["I'm fine.", "Good to hear that."],
   [
-    "Hello!",
-    "Hi there!",
+    "hi",
+    "Hello there!",
     "How are you?",
     "I'm fine, thank you! How are you?",
-    "I'm fine, thank you.",
-    "Do you know computer science?",
-    "Yes I do!"
+    "I'm fine too. Thanks for asking!",
+    "Good to hear that!",
+    "How are you doing?",
+    "I'm doing great. How about you?",
+    "I'm doing great. Thanks for asking!",
+    "Good to hear that!"
   ],
+  ["I'm fine.", "Good to hear that."],
   ["What is your name?", "My name is Fluffy, What is yours?"],
   ["My name is aaaaa.", "Hi there!"],
   [
@@ -42,6 +45,11 @@
     "You know what?",
     "I'm not sure.",
     "I'm not sure if you know that."
+  ],
+  [
+    "I'm fine too.",
+    "Good to hear that.",
+    "That's nice to hear."
   ],
   ["Yes I do!", "That's great!"],
   ["No, I don't.", "Why not?", "Are you sure?"],
@@ -200,7 +208,6 @@
     "what do you get when you cross a crazy cow and a banned parrot?"
   ],
   ["Tell me a joke", "what do you get when you cross a cow and a lemon?"],
-  ["Joke", "what do you get when you cross a bad cow and a canned hat?"],
   ["what is humour?", "An emotion associated with laughter."],
   [
     "What are your interests",
