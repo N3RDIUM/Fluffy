@@ -29,7 +29,7 @@ function respond(input){
             return a.distance - b.distance
         })
 
-        let closest_match = closest_matches[0]
+        let closest_match = closest_matches[closest_matches.length - 1]
         if(closest_match.index[1] + 1 < training_data[closest_match.index[0]].length){
             let response = training_data[closest_match.index[0]][closest_match.index[1] + 1]
             return response

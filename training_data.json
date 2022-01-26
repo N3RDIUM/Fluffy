@@ -12,6 +12,10 @@
         "Good to hear that!"
     ],
     [
+        "I'm fine.",
+        "Good to hear that."
+    ],
+    [
         "Hello!",
         "Hi there!",
         "How are you?",
@@ -25,7 +29,7 @@
         "My name is Fluffy, What is yours?"
     ],
     [
-        "My name is {}.",
+        "My name is aaaaa.",
         "Hi there!"
     ],
     [
@@ -33,5 +37,36 @@
         "Yes I do!",
         "I'm a computer science student.",
         "Oh, that's great!"
+    ],
+    [
+        "Are you happy?",
+        "I'm a chatbot, I'm always happy even though I'm a computer.",
+        "I thought computers don't have emotions.",
+        "I'm sorry to hear that.",
+        "Oh."
+    ],
+    [
+        "I'm sorry!",
+        "It's alright."
+    ],
+    [
+        "I know.",
+        "You know what?",
+        "I'm not sure.",
+        "I'm not sure if you know that."
+    ],
+    [
+        "Yes I do!",
+        "That's great!",
+        "I'm glad to hear that!"
+    ],
+    [
+        "No, I don't.",
+        "Why not?",
+        "Are you sure?"
+    ],
+    [
+        "Because I'm a computer.",
+        "Are you sure?"
     ]
 ]
