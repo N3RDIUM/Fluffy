@@ -2,8 +2,7 @@ import requests, pyttsx3
 engine = pyttsx3.init()
 
 def respond(string):
-    # Convert string to lowercase and remove punctuation and replace spaces with %20
-    string = string.lower().replace(" ", "%20")
+    string = string.replace(" ", "%20")
     
     # Use API
     url = f"http://127.0.0.1:3000/chatbot/?input=\"{string}\""
