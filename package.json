@@ -1,0 +1,27 @@
+{
+  "name": "fluffy",
+  "version": "1.0.0",
+  "description": "A chatbot API for everyone!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somePythonProgrammer/Fluffy.git"
+  },
+  "keywords": [
+    "chatbot",
+    "chatbot-api"
+  ],
+  "author": "somePythonProgrammer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/somePythonProgrammer/Fluffy/issues"
+  },
+  "homepage": "https://github.com/somePythonProgrammer/Fluffy#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "fast-levenshtein": "^3.0.0"
+  }
+}
