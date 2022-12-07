@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/somePythonProgrammer/Fluffy#readme",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.18.2",
     "fast-levenshtein": "^3.0.0"
   }
 }
